@@ -1,6 +1,5 @@
 print("Hello World!!")
 
-
 list = [1,2,3,4,5]
 
 def squares(plist:list):
@@ -30,3 +29,4 @@ print(squares2(list))
 print(square3(list))
 
 print(cube(list))
+
