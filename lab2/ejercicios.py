@@ -131,6 +131,8 @@ print(rota270_otro_lado(A))
 
 print("Problem 4--------------------------------------------------------------")
 
+
+# "x,y,z,t,a,b,c,d"
 A = np.array([
     [2,0,0,0,1,0,0,0],
     [1,0,0,0,1,0,0,0],
@@ -151,4 +153,5 @@ B = np.array([4,3,3,3,2,1,6,4,2,-3,-1,4])
 
 result = np.linalg.lstsq(A,B,rcond=None)[0]
 
+print("x,y,z,t,a,b,c,d")
 print(result)
